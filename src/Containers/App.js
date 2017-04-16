@@ -10,7 +10,7 @@ class App extends Component {
 		<footer className="footer">
 			<div className="container-fluid">
 				<p className="copyright pull-right">
-					<i className="material-icons">code</i> with <i className="material-icons">favorite</i> for <a href="https://github.com/malejogs" target="_blank">Alejandro Gonzalez</a>
+					<i className="material-icons">code</i> with <i className="material-icons">favorite</i> by <a href="https://github.com/malejogs" target="_blank">Alejandro Gonzalez</a>
 				</p>
 			</div>
 		</footer>

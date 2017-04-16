@@ -18,9 +18,16 @@ class ListaData {
 	}
 
 	add(){
+		let key
+		if(this.tareas.length === 0){
+			key = 0
+		}
+		else{
+			key= this.tareas[this.tareas.length-1].key+1
+		}
 		if(document.getElementById("addInput").value!=="")
 		{
-			this.tareas.push({key: this.tareas[this.tareas.length-1].key+1,item:document.getElementById("addInput").value})
+			this.tareas.push({key: key ,item:document.getElementById("addInput").value})
 			document.getElementById("addInput").value = ""
 		}
 	}
